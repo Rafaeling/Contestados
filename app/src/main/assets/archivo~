@@ -1,0 +1,20 @@
+BEGIN TRANSACTION;
+CREATE TABLE Preguntas (_Id INTEGER PRIMARY KEY AUTOINCREMENT, text TEXT, resp1 TEXT, resp2 TEXT, resp3 TEXT, resp4 TEXT, genero INTEGER, answer INTEGER);
+
+CREATE TABLE Rangking (name TEXT, puntuacion INTEGER, PRIMARY KEY(name));
+
+INSERT INTO Preguntas VALUES(1,'¿Quién pintó el “Gernika”?','Salvador Dalí','Francisco de Goya','Pablo Picasso','tu',1,3);
+INSERT INTO Preguntas VALUES(2,'¿A qué movimiento pertenecía Salvador Dalí? ','Miguel de Cervantes','Surrealismo','Pablo Picasso','tu',1,3);
+INSERT INTO Preguntas VALUES(3,'¿Quién escribió “Don Quijote de la Mancha?','Salvador Dalí','Francisco de Goya','Pablo Picasso','tu',1,3);
+INSERT INTO Preguntas VALUES(4,'¿Quién pintó el “Gernika”?','Salvador Dalí','Francisco de Goya','Pablo Picasso','tu',1,3);
+INSERT INTO Preguntas VALUES(5,'¿Quién pintó el “Gernika”?','Salvador Dalí','Francisco de Goya','Pablo Picasso','tu',1,3);
+INSERT INTO Preguntas VALUES(6,'¿A qué movimiento pertenecía Salvador Dalí? ','Miguel de Cervantes','Surrealismo','Pablo Picasso','tu',1,3);
+INSERT INTO Preguntas VALUES(7,'¿Quién escribió “Don Quijote de la Mancha?','Salvador Dalí','Francisco de Goya','Pablo Picasso','tu',1,3);
+INSERT INTO Preguntas VALUES(8,'¿Quién pintó el “Gernika”?','Salvador Dalí','Francisco de Goya','Pablo Picasso','tu',1,3);
+COMMIT;
+
+
+
+
+
+

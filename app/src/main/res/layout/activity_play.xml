@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="30dip"
+    android:background="@drawable/textura_tema">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/elegir_tema"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dip"
+        android:textColor="#ffbfbacc"
+        android:id="@+id/titulo"
+        android:textStyle="bold"
+        android:singleLine="false"
+        android:phoneNumber="false"
+        android:password="false"
+        android:autoText="false" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/circulo"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tema_historia"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Historia"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tema_deportes"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Deportes"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tema_cine"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Cine"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tema_ciencias"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Ciencia"
+        />
+
+
+</LinearLayout>

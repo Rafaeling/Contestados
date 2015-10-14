@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Contestados</string>
+
+    <string name="action_settings">Ajustes</string>
+
+
+    <string name="play_button">Jugar</string>
+    <string name="ranking_button">Ranking</string>
+    <string name="go_out">Salir</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+    <string name="title_activity_tema">Tema</string>
+    <string name="elegir_tema">Elegir Tema de Preguntas</string>
+    <string name="tema_historia">Historia</string>
+    <string name="tema_deportes">Deportes</string>
+    <string name="tema_cine">Cine</string>
+    <string name="tema_ciencias">Ciencias</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_activity_pregunta">Pregunta</string>
+    <string name="text_pregunta">texto</string>
+    <string name="title_activity_view_pregunta">ViewPregunta</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_resultado">Resultado</string>
+</resources>
